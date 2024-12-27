@@ -135,7 +135,12 @@ body {
 .modal-sort {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   gap: 0.5em;
+}
+
+.open-modal .btn {
+  width: 100%;
 }
 
 .btn {
@@ -160,6 +165,12 @@ body {
   align-items: center;
   color: whitesmoke;
   font-weight: bold;
+}
+
+.sortby-btns {
+  display: flex;
+  gap: 0.5em;
+  align-items: center;
 }
 
 .direction:hover {
@@ -247,12 +258,10 @@ body {
 
   .flex {
     flex-wrap: wrap;
-    justify-content: center;
   }
 
   .tags-wrapper {
     width: 100%;
-    margin: 0;
   }
 
   .modal-sort {

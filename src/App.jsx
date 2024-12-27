@@ -314,7 +314,7 @@ function App() {
             </div>
             <div className="sortby">
               <label htmlFor="sort">Sort by</label>
-              <div className="flex">
+              <div className="sortby-btns">
                 <select id="sort" value={sortBy} onChange={sortQuotes}>
                   <option value=""></option>
                   <option value="author">Author</option>
