@@ -22,7 +22,7 @@ A web application that allows users to browse, filter, and manage a collection o
 - Add new quotes with tags
 - Vote on quotes (upvote/downvote)
 
-## Installation 🛠️
+## Installation
 
 1. Clone the repository:
    ```bash
