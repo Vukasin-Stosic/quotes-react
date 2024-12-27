@@ -95,11 +95,11 @@ body {
 .flex {
   display: flex;
   justify-content: space-between;
-  /* flex-wrap: wrap; */
   gap: 0.5em;
 }
 
 .tags-wrapper {
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   gap: 0.5em;
@@ -110,6 +110,7 @@ body {
 
 .tags-title {
   opacity: 0.5;
+  width: fit-content;
 }
 
 .tags {
@@ -135,7 +136,6 @@ body {
   display: flex;
   flex-direction: column;
   gap: 0.5em;
-  justify-content: center;
 }
 
 .btn {
@@ -205,6 +205,7 @@ body {
   border: none;
   font-size: inherit;
   padding: 0.5em;
+  font-family: inherit;
 }
 
 .modal textarea {
@@ -235,7 +236,13 @@ body {
   }
 
   .quote-wrapper {
-    gap: 1em;
+    grid-template-columns: 15% 85%;
+  }
+
+  .votes-count {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   .flex {
@@ -243,12 +250,16 @@ body {
     justify-content: center;
   }
 
+  .tags-wrapper {
+    width: 100%;
+    margin: 0;
+  }
+
   .modal-sort {
-    width: 80%;
+    width: 100%;
     flex-direction: row;
     justify-content: space-between;
     align-items: last baseline;
-    /* gap: 2em; */
   }
 
   .pagination {

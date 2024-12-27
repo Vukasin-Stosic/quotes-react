@@ -39,8 +39,9 @@ export default function Quote({ quote, handleVote }) {
         <div className="percentage" style={{ color: color }}>
           <span>{percentage}</span>%
         </div>
-        <div>
-          <span className="up_vote">{quote.upvotesCount}</span>/
+        <div className="votes-count">
+          <span className="up_vote">{quote.upvotesCount}</span>
+          <span>/</span>
           <span className="down_vote">{quote.downvotesCount}</span>
         </div>
         <div
